@@ -28,6 +28,8 @@ First, create a new React app:
 ```bash
 npx create-react-app shameer-portfolio
 cd shameer-portfolio
+npm install framer-motion
+
 ```
 
 ### 2. Main App Component
