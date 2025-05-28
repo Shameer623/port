@@ -9,6 +9,50 @@ npm install react-icons react-scroll framer-motion
 
 ### 2. Complete File Structure with Code
 
+shameer-portfolio/
+├── public/
+│   ├── project1.jpg          # Sample project images
+│   ├── project2.jpg
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   │   └── shameer-resume.pdf  # Your resume PDF
+│   │
+│   ├── components/
+│   │   ├── sections/
+│   │   │   ├── About.jsx
+│   │   │   ├── Contact.jsx
+│   │   │   ├── Experience.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── Projects.jsx
+│   │   │   ├── Resume.jsx
+│   │   │   ├── Skills.jsx
+│   │   │   └── index.js       # Optional barrel file
+│   │   │
+│   │   └── ui/
+│   │       ├── LoadingSpinner.jsx
+│   │       ├── Navbar.jsx
+│   │       ├── ProjectCard.jsx
+│   │       ├── SkillBar.jsx
+│   │       └── index.js       # Optional barrel file
+│   │
+│   ├── context/
+│   │   └── ThemeContext.jsx   # Dark mode context
+│   │
+│   ├── styles/
+│   │   └── globals.css        # All CSS styles
+│   │
+│   ├── App.jsx                # Main app component
+│   ├── main.jsx               # Entry point
+│   └── vite-env.d.ts          # TypeScript declarations (if using TS)
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js             # Vite configuration
+└── README.md                  # Project documentation
+
 #### `src/main.jsx`
 ```jsx
 import React from 'react'
